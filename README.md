@@ -17,7 +17,8 @@ More details to install python,virtual environment to store your packages and to
 
 https://platform.openai.com/docs/quickstart?context=python
 
-and run the requirement.txt file
+and run the requirement.txt file using the below command
+pip install requirement.txt
 
 **MODEL FRAMEWORK AND METHODS**
 This Chatbot is designed on Retrieval-Augmented Generation, aka RAG
