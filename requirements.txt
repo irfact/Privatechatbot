@@ -1,9 +1,9 @@
 langchain==0.1.13
 openai==0.28.0
-pinecone==0.1.0
+pinecone-client==3.1.0
 streamlit==1.32.2
 streamlit_chat==0.1.1
 utils==1.0.2
 unstructured==0.12.6
-poppler-utils=0.10
-cmake=3.28.3
+poppler-utils==0.10
+cmake==3.28.3
