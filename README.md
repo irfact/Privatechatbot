@@ -1,5 +1,5 @@
 # Privatechatbot
-Chatbot Assistant that can read personal files.LANGCHAIN/PINECONE/STREAMLIT(text-embedding-3-small and 3.5-gpt-turbo-0125)
+Chatbot Assistant that can read personal files.LANGCHAIN/PINECONE/STREAMLIT
 **New features and their descriptions**
 This Chatbot is a pesonalized assistant which can read any unstructured text files (.csv,.pdf,.txt,.docx) and process the information.
 the processed information will be stored in avector database for which we have chosen PINECONE. a scalable high performance lets you deliver remarkable GenAI applications faster, at up to 50x lower cost.
@@ -19,10 +19,15 @@ https://platform.openai.com/docs/quickstart?context=python
 
 and run the requirement.txt file using the below command
 
-pip install requirement.txt
+pip install -r requirements.txt
 
 After the above code is run and successfully installed
-Go To run the folder where the script is placed and run the below command in the terminal or command prompt
+Navigate to the folder where the script is placed and 
+create a subfolder {.streamlit} and copy an paste the secrets.toml file from the git maintree
+![image](https://github.com/irfact/Privatechatbot/assets/60041978/5945bdd7-b452-4335-b3c0-4eccba1605e9)
+
+Also pull the subfolder BGimages into the project
+run the below command in the terminal or command prompt
 
 streamlit run {yourpythonscriptname.py}
 (eg: streamlit run pathscape.py)
@@ -40,11 +45,10 @@ Conversation chain
 Conversation buffer memory
 
 Pinecone is a vector database for our chatbot
-OPEN AI is the embedding and generative model (text-embedding-3-small and 3.5-gpt-turbo-0125)
+OPEN AI is the embedding and generative model used (text-embedding-3-small and 3.5-gpt-turbo-0125) # can be configurable in the secrets.toml
 
 For FrontEnd design STREAMLIT(Streamlit turns data scripts into shareable web apps in minutes.All in pure Python.)
 https://blog.streamlit.io/generative-ai-and-streamlit-a-perfect-match/
-
 
 
 The Architecture of the Model is Diagramatically visualized below:
